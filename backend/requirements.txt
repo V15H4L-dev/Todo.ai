@@ -1,10 +1,7 @@
-cryptography
 fastapi
-sqlalchemy
-pydantic
+uvicorn[standard]
+alembic
+SQLAlchemy
 python-jose
-passlib
-uvicorn
-PyMySQL
-python-multipart
-bcrypt
+passlib[bcrypt]
+pyjwt
