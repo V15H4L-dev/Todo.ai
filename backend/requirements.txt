@@ -8,4 +8,3 @@ uvicorn
 PyMySQL
 python-multipart
 bcrypt
-colorama

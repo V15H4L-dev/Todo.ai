@@ -2,9 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from CRUD.authen import auth
 import uvicorn
-import colorama
 
-colorama.init()
 origins = [
     "http://localhost:3000",
     "http://localhost:8080",
